@@ -21,7 +21,7 @@
 # Installation IP-Symcon (Weingaertner VISION)
 
 # Repository hinzufügen
-# Alte Sources.list löschen, neue einfügen
+bash /home/pi/VISION_Worker_Setup/addrepo.sh
     
     
 
