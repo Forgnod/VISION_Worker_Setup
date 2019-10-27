@@ -21,11 +21,9 @@
 # Installation IP-Symcon (Weingaertner VISION)
 
 # Repository hinzufügen
+# Alte Sources.list löschen, neue einfügen
     
-    cd /etc/apt
-    sudo cat <<'EOF' >> sources.list
-    deb http://apt.symcon.de/ stable rpi
-    EOF	 
+    
 
 # GPG Schlüssel
     
