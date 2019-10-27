@@ -32,3 +32,7 @@
 
    sudo apt-get update
    sudo apt-get install symcon
+
+# Webmin installieren
+
+   
