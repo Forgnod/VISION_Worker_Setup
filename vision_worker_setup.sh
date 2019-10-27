@@ -23,8 +23,8 @@
 # Repository hinzufügen
     
     cd /etc/apt
-     sudo cat >> sources.list <<-EOF
-    > deb http://apt.symcon.de/ stable rpi
+     sudo cat >> sources.list <<`EOF'
+     deb http://apt.symcon.de/ stable rpi
     ^D 	 
 
 # GPG Schlüssel
