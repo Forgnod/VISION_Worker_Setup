@@ -23,15 +23,15 @@
 # Repository hinzufügen
     
     cd /etc/apt
-    sudo ( 
-    cat >> sources.list <<'EOF'
-    >deb http://apt.symcon.de/ stable rpi
-         )	
+    sudo cat <<EOF >  sources.list
+    deb http://apt.symcon.de/ stable rpi
+    EOF     	 
+
 # GPG Schlüssel
     
-    wget -qO - http://apt.symcon.de/symcon.key | sudo apt-key add -
+   # wget -qO - http://apt.symcon.de/symcon.key | sudo apt-key add -
     
 # Symcon installieren
 
-    sudo apt-get update
-    sudo apt-get install symcon
+   # sudo apt-get update
+   # sudo apt-get install symcon
