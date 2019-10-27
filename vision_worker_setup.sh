@@ -25,7 +25,7 @@
     cd /etc/apt
      sudo cat >> sources.list <<-EOF
     > deb http://apt.symcon.de/ stable rpi
-    `EOF' 	 
+    ` 	 
 
 # GPG Schlüssel
     
