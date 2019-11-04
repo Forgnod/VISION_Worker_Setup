@@ -30,6 +30,7 @@
     
 # Symcon installieren
 
+   sudo sh -c 'echo "deb http://apt.symcon.de/ stable rpi" > /etc/apt/sources.list.d/webmin.list'
    sudo apt-get update
    sudo apt-get install symcon
 
@@ -40,3 +41,6 @@
    sudo apt update
    sudo apt install webmin
    
+   sudo apt install fail2ban
+   sudo enable fail2ban
+   sudo start fail2bain
