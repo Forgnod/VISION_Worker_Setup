@@ -16,6 +16,7 @@
    sudo ufw allow 8834/tcp       #neuer SSH Port
    sudo ufw limit 8834/tcp     
    sudo ufw allow 3777/tcp       #Port IP-Symcon
+   sudo ufw allow 9934/tcp		 #Port Webmin	
    sudo ufw enable
     
 # Installation IP-Symcon (Weingaertner VISION)
@@ -41,6 +42,14 @@
    sudo apt update
    sudo apt install webmin
    
+# Webmin Port anpassen   
+   
+# Fail2ban installieren   
+   
    sudo apt install fail2ban
    sudo enable fail2ban
    sudo start fail2bain
+   
+# Systemctl anpassen
+
+# Host_config anpassen
