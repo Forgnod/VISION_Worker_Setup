@@ -12,7 +12,7 @@ Unter anderem werden einstellungen in der Firewall, Repos, GPG-Keys etc vorgenom
   Fail2ban ~ https://www.fail2ban.org/wiki/index.php/Main_Page
     Scant Logfiles nach bedrohlichen IP Adressen und sperrt diese in den Firewall-Regeln
 
-  Webmin ~ Remote Monitoring
+  Webmin ~ Remote Monitoring http://www.webmin.com/
     Webmin dient als Basis zum Remote Monitoring
 
   
