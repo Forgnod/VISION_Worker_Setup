@@ -14,9 +14,9 @@
    sudo apt-get install ufw
    sudo ufw limit 22/tcp         #aktueller SSH Port
    sudo ufw allow 8834/tcp       #neuer SSH Port
-   sudo ufw limit 8834/tcp     
+   sudo ufw limit 8834/tcp       #limitiert die Verbindungen für den Angegebenen Port     
    sudo ufw allow 3777/tcp       #Port IP-Symcon
-   sudo ufw allow 9934/tcp		 #Port Webmin	
+   sudo ufw allow 9934/tcp       #Port Webmin	
    sudo ufw enable
     
 # Installation IP-Symcon (Weingaertner VISION)
