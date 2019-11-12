@@ -20,10 +20,6 @@
    sudo ufw enable
     
 # Installation IP-Symcon (Weingaertner VISION)
-
-# Repository hinzufügen
-   
-   bash /home/pi/VISION_Worker_Setup/addrepo.sh
     
 # GPG Schlüssel
     
