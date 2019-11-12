@@ -47,8 +47,8 @@
 # Fail2ban installieren   
    
    sudo apt install fail2ban
-   sudo enable fail2ban
-   sudo start fail2bain
+   sudo systemctl enable fail2ban
+   sudo systemctl start fail2ban
    
 # Systemctl anpassen
 
